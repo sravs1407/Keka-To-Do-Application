@@ -14,6 +14,7 @@ Login page where you can enter your username and seamlessly continue into the ap
 ### 4.Home Screen
 On the home screen, you'll find two buttons: "Tasks" and "Completed." The "Tasks" button gives you a comprehensive list of your pending tasks, while the "Completed" button showcases tasks you've accomplished.To add new tasks, simply tap the "+" button located in the bottom right corner. 
 
+
 ![image](https://github.com/sravs1407/Keka-To-Do-Application/assets/95563750/cb4d086f-c3c5-4ba8-9945-c8eb6c1821c5)
 
 ### 5. Create a new task
