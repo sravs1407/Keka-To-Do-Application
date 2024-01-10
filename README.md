@@ -9,6 +9,7 @@ Upon launching the Awesome To-Do App, users are greeted with an engaging splash 
 ![image](https://github.com/sravs1407/Keka-To-Do-Application/assets/95563750/c4ff514b-62b2-42d3-bb65-5d779ea32c12)
 ### 3.Login Page
 Login page where you can enter your username and seamlessly continue into the app with a single tap on the "Continue" button. 
+
 ![image](https://github.com/sravs1407/Keka-To-Do-Application/assets/95563750/8080d3d0-046e-4d68-b092-d9413f4457ff)
 
 ### 4.Home Screen
