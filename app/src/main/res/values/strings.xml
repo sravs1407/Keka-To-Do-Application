@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">To Do List</string>
+
+    <string name="BigText">64sp</string>
+    <string name="BigMedText">34sp</string>
+    <string name="MidText">24sp</string>
+    <string name="smallMid">16sp</string>
+    <string name="small">8sp</string>
+</resources>

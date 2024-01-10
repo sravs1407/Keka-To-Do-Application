@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CreateTask">
+
+
+    <LinearLayout
+        android:id="@+id/Controls"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center|end"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/createTaskText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Create a New Task"
+            android:textSize="30sp" />
+
+        <ImageButton
+            android:id="@+id/createTaskClose"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="100"
+            android:backgroundTint="#00FFFFFF"
+            android:src="@drawable/baseline_close_24" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/taskDetailLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/Controls"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="35dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/taskTitleText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Task Title"
+            android:textColor="@color/secondary"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/taskTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Eg. Painting a Wall"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/taskDescriptionText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Task Description"
+            android:textColor="@color/secondary"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/taskDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="Eg. Paint the wall in red"
+            android:inputType="text" />
+
+        <TextView
+            android:id="@+id/taskPriorityText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Task Priority"
+            android:textColor="@color/secondary"
+            android:textSize="16sp" />
+
+        <RadioGroup
+            android:id="@+id/priorityBox"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbLow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:buttonTint="@color/primary"
+                android:text="Low" />
+
+            <RadioButton
+                android:id="@+id/rbMed"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:buttonTint="@color/primary"
+                android:text="Medium" />
+
+            <RadioButton
+                android:id="@+id/rbHigh"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:buttonTint="@color/primary"
+                android:text="High" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/taskDueText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:fontFamily="@font/roboto_medium"
+            android:text="Task Due Date"
+            android:textColor="@color/secondary"
+            android:textSize="16sp" />
+
+        <EditText
+            android:id="@+id/editTextDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="01/01/2047 : dd/mm/yyyy"
+            android:inputType="date" />
+
+        <Button
+            android:id="@+id/createTaskBtn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="45dp"
+            android:backgroundTint="@color/primary"
+            android:text="Create Task" />
+
+    </LinearLayout>
+</RelativeLayout>
